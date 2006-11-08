@@ -3,7 +3,6 @@
 %define		_subclass	DataGrid_DataSource_DBQuery
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_DBQuery
-
 Summary:	%{_pearname} - DataSource driver using PEAR::DB and an SQL query
 Summary(pl):	%{_pearname} - sterownik DataSource do PEAR::DB i kwerend SQL
 Name:		php-pear-%{_pearname}
@@ -18,7 +17,7 @@ BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-DB >= 1.7.6
-Requires:	php-pear-PEAR >= 1:1.4.-0.9
+Requires:	php-pear-PEAR-core >= 1:1.4.9
 Requires:	php-pear-Structures_DataGrid >= 0.7.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
