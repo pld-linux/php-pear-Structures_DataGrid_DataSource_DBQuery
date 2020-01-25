@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Structures_DataGrid_DataSource_DBQuery
 Summary:	%{_pearname} - DataSource driver using PEAR::DB and an SQL query
